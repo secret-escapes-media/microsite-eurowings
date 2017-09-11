@@ -1,0 +1,202 @@
+// all custom styles for the site
+
+* {
+  // stop touch highlight color on mobile
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body { background-color: $white; }
+
+.bg {
+  &--black { background-color: $black; }
+  &--white { background-color: $white; }
+  &--dark-grey { background-color: $dark-grey; }
+  &--light-grey { background-color: $light-grey; }
+
+  &--theme-primary { background-color: $partner-primary; }
+  &--theme-secondary { background-color: $partner-secondary; }
+
+  &--dark-burgundy { background-color: $dark-burgundy; }
+  &--light-burgundy { background-color: $light-burgundy; }
+  &--dark-sky-blue { background-color: $dark-sky-blue; }
+  &--light-sky-blue { background-color: $light-sky-blue; }
+  &--lighter-sky-blue { background-color: $lighter-sky-blue; }
+}
+
+
+.invert-text {
+  color: $white;
+  .title { color: $white; }
+  hr { background-color: rgba($white,0.2); }
+}
+
+
+
+.intro {
+  position: relative;
+  padding: 0;
+  padding-bottom: 70px;
+  &__content {
+
+  }
+  &__nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: auto;
+  }
+}
+.is-stuck {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  z-index: $z-nav-upper;
+}
+
+
+
+.section {
+  position: relative;
+  @include background-attributes;
+}
+
+
+
+.page-section {
+  background-color: $light-grey;
+
+  background-size: 180%;
+  background-position: center top;
+  background-attachment: scroll;
+
+  @include bp(large){
+    @include background-attributes();
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+
+  &__content {
+    padding-top: 40vh;
+    &-inner {
+      background-color: rgba($white,.65);
+      border-radius: 3px;
+      padding: 1.5em 2em 2em;
+    }
+  }
+  @include bp(large){
+    &__content {
+      padding-top: 0;
+    }
+  }
+  @include bp(xxlarge){
+    &__content {
+      padding-top: 0;
+      width: 70%;
+      margin-left: 30%;
+      padding-left: 7.5%;
+      padding-right: 7.5%;
+    }
+    &--reverse &__content { margin-left: auto; margin-right: 30%; }
+  }
+
+
+
+  &__resort {
+    @include transition();
+    position: relative;
+    background-color: $white;
+    box-shadow: 0 0 10px 0 rgba($dark-sky-blue, 0.1);
+    border-radius: 4px;
+    display: block;
+    overflow: hidden;
+    &:hover { box-shadow: 0 5px 15px 2px rgba($dark-sky-blue, 0.2); }
+
+    @include bp(large){
+      .flexbox & { display: flex; }
+    }
+
+    @include bp(xxlarge){
+      margin-left: -20%;
+      margin-right: -20%;
+    }
+
+    // inside components
+    &-text { padding: 0.5em 2em 2em; }
+    &-image {
+      @include transition();
+      position: relative;
+      background-size: cover;
+    }
+
+    @include bp(large){
+      &-text { padding: 2em; }
+      &-image { background-size: auto 100%; }
+      &:hover &-image {
+        background-size: auto 105%;
+      }
+    }
+  }
+
+
+
+  &__route {
+    @include transition();
+    position: relative;
+    background-color: $white;
+    box-shadow: 0 0 10px 0 rgba($dark-sky-blue, 0.1);
+    border-bottom: 0px solid $burgundy;
+    border-radius: 4px;
+    padding: 15px 20px;
+    display: block;
+    & + & { margin-top: 0.5em; }
+    &:hover {
+      box-shadow: 0 5px 15px 2px rgba($dark-sky-blue, 0.2);
+      border-bottom: 3px solid $burgundy;
+      padding-bottom: 12px;
+    }
+
+    &-text {}
+    &-details {
+      padding-top: 1em;
+      margin-top: 1em;
+      border-top: 1px solid rgba($black,.2);
+    }
+
+    @include bp(large){
+      padding: 20px;
+      .flexbox & {
+        display: flex;
+        align-items: center;
+      }
+      &:hover { padding-bottom: 17px; }
+
+      &-text {
+        float: left;
+        width: 75%;
+      }
+      &-details {
+        padding-top: 0;
+        margin-top: 0;
+        float: left;
+        width: 25%;
+        text-align: right;
+        border-top: 0;
+        border-left: 1px solid rgba($black,.2);
+      }
+
+    }
+    @include bp(xxlarge){
+      margin-left: -10%;
+      margin-right: -10%;
+    }
+
+  }
+
+}
+
+
+
+

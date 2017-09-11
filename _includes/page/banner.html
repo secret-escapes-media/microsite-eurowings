@@ -1,0 +1,21 @@
+<div class="banner" style="background-image: url({{site.baseurl}}/img/bg/banner.jpg);">
+  <div class="banner__wrap row row--padding align-center invert-text">
+
+    {% if page.banner-supertitle %}
+      <span class="title title--smaller title--upper title--bold title--sup">{{page.banner-supertitle}}</span>
+    {% endif %}
+
+    <h1>
+      <img class="banner__title-image js-svg-swap" src="{{site.baseurl}}/img/bg/title.png" alt="{{page.banner-title}}">
+      <img class="banner__title-image-mobile js-svg-swap" src="{{site.baseurl}}/img/bg/title-mobile.png" alt="{{page.banner-title}}">
+    </h1>
+
+    {% if page.banner-subtitle %}
+      <span class="title title--smaller title--upper title--bold title--sub">{{page.banner-subtitle}}</span>
+    {% endif %}
+
+  </div>
+  <div class="banner__mountains"></div>
+  <div class="banner__overlay"></div>
+
+</div>

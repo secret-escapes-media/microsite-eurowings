@@ -1,0 +1,10 @@
+<div class="site-nav">
+  <div class="row">
+    <ul class="site-nav__list">
+      {% assign sections = site.data.destinations %}
+      {% for section in sections %}
+        <li class="site-nav__item site-nav__item--{{ section.id }}"><a class="site-nav__link" href="#{{ section.id }}">{{ section.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div><!-- END - .row -->
+</div><!-- END - .site-nav -->

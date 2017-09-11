@@ -1,0 +1,78 @@
+.banner {
+  position: relative;
+  height: 85%;
+  background-color: $grey-darker;
+  text-align: center;
+  background-image: url('../img/bg/intro.jpg');
+  @include background-attributes;
+  background-position: center bottom;
+
+  &__wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: $z-content-upper;
+    width: 100%;
+    // max-width: $xlarge;
+    margin: auto;
+    padding-top: 30vh;
+    .csstransforms.csstransforms3d & {
+      top: 50%;
+      padding-top: 0;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__title {
+    &-image {
+      display: none;
+      max-width: 80%;
+      margin: auto;
+    }
+    &-image-mobile {
+      display: block;
+      max-width: 80%;
+      margin: auto;
+    }
+    @include bp(large){
+      &-image { display: block; }
+      &-image-mobile { display: none; }
+    }
+  }
+
+  &__mountains {
+    background-image: url('../img/bg/intro-mountains.png');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-position: center;
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    z-index: 3;
+    pointer-events: none;
+    height: 130px;
+  }
+
+  &__overlay {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top:0;bottom:0;left:0;right:0;
+    background-color: $dark-sky-blue;
+    opacity: 0.15;
+    pointer-events: none;
+  }
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: $dark-grey;
+    background-image: url('../img/bg/bg.jpg');
+    @include background-attributes;
+  }
+
+}

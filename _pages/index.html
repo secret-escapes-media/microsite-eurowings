@@ -1,0 +1,93 @@
+---
+layout: default
+title: Overview
+
+banner-supertitle: Snow better place to ski
+banner-title: Alpine escapes
+banner-subtitle: with Eurowings
+
+intro: >
+  <p class="p--lead">Eurowings and Secret Escapes are set to whisk you off to white-powder pistes at Europe’s best winter wonderlands. </p>
+  <p class="p--lead">From admiring Baroque marvels to skiing down magnificent white mountains, Eurowings is tipped to take you to breathtaking destinations. Discover the home of Mozart, the beer halls of Munich, and lose yourself in the magic of traditional advent markets. From famed festive cities to stunning alpine backdrops, pick your winter destination here, flying from four UK airports.</p>
+
+---
+{% assign sections = site.data.destinations %}
+
+
+
+{% include page/banner.html %}
+{% include page/intro.html %}
+
+
+
+{% for section in sections %}
+{% assign resort = section.resort %}
+
+  <section id="{{section.id}}" class="section page-section section--padding-large {% cycle '', 'page-section--reverse' %}" style="background-image: url({{ site.baseurl }}/img/bg/bg--{{ section.id }}.jpg);">
+    <div class="row row--padding">
+
+      <!-- CONTENT -->
+      <div class="page-section__content">
+
+        <h2 class="title title--largest title--bolder align-center title--color">{{section.title}}</h2>
+
+        <div class="page-section__content-inner">
+
+
+          <div class="row">
+            {{section.text}}
+          </div>
+
+          <div class="row align-center">
+            <h4 class="title title--medium title--bolder title--margin-none title--lined"><span>To the mountains</span></h4>
+          </div>
+
+
+          <div class="page-section__resort row row--columns-5-7 row--columns-vertical-align">
+
+            <a id="tracking-resort-{{resort.title | slugify}}" href="{{resort.link}}" target="_blank" class="page-section__resort-image bg-image--ratio bg-image--ratio-16-9 bg-image--large--ratio-3-4 row__column" style="background-image: url('{{site.baseurl}}/img/content/{{section.id}}-{{resort.class}}.jpg');"></a>
+
+            <div class="page-section__resort-text row__column">
+              <h3 class="title title--tiny title--bold">{{resort.title}}</h3>
+              {{resort.description}}
+              <a href="{{resort.link}}" target="_blank" class="btn btn--outline btn--small">Find out more</a>
+            </div>
+
+          </div>
+
+          <div class="row align-center">
+            <h4 class="title title--medium title--bolder title--margin-none title--lined"><span>Flights</span></h4>
+          </div>
+
+          {% for route in section.routes %}
+          <a href="{{route.link}}" target="_blank" class="page-section__route row">
+            <div class="page-section__route-text">
+              <h3 class="title title--micro title--bold">{{route.title}}</h3>
+              <p class="p--bold">{{route.dates}}</p>
+            </div>
+            <div class="page-section__route-details">
+              <span>Flights from</span>
+              <p class="title title--micro title--bold title--margin-none">£{{route.price}}</p>
+              <span>per person</span>
+            </div>
+          </a>
+          {% endfor %}
+
+
+          <div class="row align-center">
+            <a href="#routes" target="_blank" class="btn btn--large">View flights to {{ section.title }}</a>
+          </div>
+
+
+        </div><!-- END section__content-inner -->
+      </div><!-- END section__content -->
+
+    </div>
+  </section>
+{% endfor %}
+
+
+
+{% include page/routes.html %}
+
+
