@@ -1,6 +1,7 @@
 .banner {
   position: relative;
   height: 85%;
+  min-height: 480px;
   background-color: $grey-darker;
   text-align: center;
   background-image: url('../img/bg/intro.jpg');
@@ -34,6 +35,9 @@
       display: block;
       max-width: 80%;
       margin: auto;
+      @include bp(medium){
+        max-width: 90%;
+      }
     }
     @include bp(large){
       &-image { display: block; }

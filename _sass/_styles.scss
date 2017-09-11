@@ -36,10 +36,11 @@ body { background-color: $white; }
 .intro {
   position: relative;
   padding: 0;
-  padding-bottom: 70px;
-  &__content {
-
+  padding-bottom: 50px;
+  @include bp(large){
+    padding-bottom: 70px;
   }
+
   &__nav {
     position: absolute;
     width: 100%;
@@ -83,7 +84,11 @@ body { background-color: $white; }
     &-inner {
       background-color: rgba($white,.65);
       border-radius: 3px;
-      padding: 1.5em 2em 2em;
+      margin-top: 1em;
+      padding: 1.5em 1em 2em;
+      @include bp(large){
+        padding: 1.5em 2em 2em;
+      }
     }
   }
   @include bp(large){
@@ -124,7 +129,12 @@ body { background-color: $white; }
     }
 
     // inside components
-    &-text { padding: 0.5em 2em 2em; }
+    &-text {
+      padding: 0.5em 1.5em 1.5em; 
+      @include bp(large){
+        padding: 0.5em 2em 2em;
+      }
+    }
     &-image {
       @include transition();
       position: relative;
@@ -163,6 +173,12 @@ body { background-color: $white; }
       padding-top: 1em;
       margin-top: 1em;
       border-top: 1px solid rgba($black,.2);
+      & .title {
+        display: inline;
+        @include bp(large){
+          display: block;
+        }
+      }
     }
 
     @include bp(large){
