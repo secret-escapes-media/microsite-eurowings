@@ -9,19 +9,19 @@
 body { background-color: $white; }
 
 .bg {
-  &--black { background-color: $black; }
-  &--white { background-color: $white; }
+  // &--black { background-color: $black; }
+  // &--white { background-color: $white; }
   &--dark-grey { background-color: $dark-grey; }
-  &--light-grey { background-color: $light-grey; }
+  // &--light-grey { background-color: $light-grey; }
 
-  &--theme-primary { background-color: $partner-primary; }
-  &--theme-secondary { background-color: $partner-secondary; }
+  // &--theme-primary { background-color: $partner-primary; }
+  // &--theme-secondary { background-color: $partner-secondary; }
 
-  &--dark-burgundy { background-color: $dark-burgundy; }
-  &--light-burgundy { background-color: $light-burgundy; }
-  &--dark-sky-blue { background-color: $dark-sky-blue; }
-  &--light-sky-blue { background-color: $light-sky-blue; }
-  &--lighter-sky-blue { background-color: $lighter-sky-blue; }
+  // &--dark-burgundy { background-color: $dark-burgundy; }
+  // &--light-burgundy { background-color: $light-burgundy; }
+  // &--dark-sky-blue { background-color: $dark-sky-blue; }
+  // &--light-sky-blue { background-color: $light-sky-blue; }
+  // &--lighter-sky-blue { background-color: $lighter-sky-blue; }
 }
 
 
@@ -80,7 +80,8 @@ body { background-color: $white; }
 
 
   &__content {
-    padding-top: 40vh;
+    padding-top: 2em;
+    .cssvhunit & { padding-top: 30vh; }
     &-inner {
       background-color: rgba($white,.65);
       border-radius: 3px;
@@ -93,7 +94,7 @@ body { background-color: $white; }
   }
   @include bp(large){
     &__content {
-      padding-top: 0;
+      .cssvhunit & { padding-top: 2em; }
     }
   }
   @include bp(xxlarge){
@@ -130,7 +131,7 @@ body { background-color: $white; }
 
     // inside components
     &-text {
-      padding: 0.5em 1.5em 1.5em; 
+      padding: 0.5em 1.5em 1.5em;
       @include bp(large){
         padding: 0.5em 2em 2em;
       }
