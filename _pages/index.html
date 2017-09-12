@@ -23,7 +23,8 @@ intro: >
 {% for section in sections %}
 {% assign resort = section.resort %}
 
-  <section id="{{section.id}}" class="section page-section section--padding-large {% cycle '', 'page-section--reverse' %}" style="background-image: url({{ site.baseurl }}/img/bg/bg--{{ section.id }}.jpg);">
+  <section id="{{section.id}}" class="section page-section section--padding-large {% cycle '', 'page-section--reverse' %}">
+
     <div class="row row--padding">
 
       <!-- CONTENT -->
@@ -85,6 +86,11 @@ intro: >
       </div><!-- END section__content -->
 
     </div>
+
+    <div class="page-section__background">
+      <div class="page-section__background-img" style="background-image: url({{ site.baseurl }}/img/bg/bg--{{ section.id }}.jpg);"></div>
+    </div>
+
   </section>
 {% endfor %}
 

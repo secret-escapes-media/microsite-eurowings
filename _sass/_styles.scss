@@ -67,15 +67,37 @@ body { background-color: $white; }
 
 .page-section {
   background-color: $light-grey;
+  position: relative;
 
-  background-size: 180%;
-  background-position: center top;
-  background-attachment: scroll;
+  & * { z-index: 1; }
+  &__background {
+    position: absolute;
+    z-index: 0;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    @include bp(large){
+      .svgclippaths & { clip: rect(0, auto, auto, 0); }
+    }
 
-  @include bp(large){
-    @include background-attributes();
-    background-attachment: fixed;
-    background-position: center;
+    &-img {
+      position: absolute;
+      z-index: 0;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-size: 180%;
+      background-position: center top;
+      background-repeat: no-repeat;
+      @include bp(large){
+        background-attachment: fixed;
+        .svgclippaths & {
+          background-attachment: scroll;
+          position: fixed;
+          transform: translateZ(0);
+          will-change: transform;
+          background-size: 100%;
+        }
+      }
+    }
   }
 
 
