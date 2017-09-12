@@ -80,8 +80,12 @@ body { background-color: $white; }
 
 
   &__content {
-    padding-top: 2em;
-    .cssvhunit & { padding-top: 30vh; }
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 40%;
+    }
     &-inner {
       background-color: rgba($white,.65);
       border-radius: 3px;
@@ -94,7 +98,8 @@ body { background-color: $white; }
   }
   @include bp(large){
     &__content {
-      .cssvhunit & { padding-top: 2em; }
+      &:before { content: none; }
+      padding-top: 2em;
     }
   }
   @include bp(xxlarge){

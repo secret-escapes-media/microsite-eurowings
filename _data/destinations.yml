@@ -21,7 +21,7 @@
       link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 
     - title: Departing from Birmingham Airport
-      price: 24.99
+      price: 49.99
       dates: Winter special until March, flights available all year
       link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 
@@ -45,22 +45,22 @@
   routes:
 
     - title: Departing from London Stansted
-      price: 24.99
+      price: 29.99
       dates: Winter special until March, flights available all year
       link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 
     - title: Departing from London Heathrow
-      price: 24.99
+      price: 49.99
       dates: Winter special until March, flights available all year
       link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 
     - title: Departing from Birmingham Airport
-      price: 24.99
+      price: 49.99
       dates: Winter special until March, flights available all year
       link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 
     - title: Departing from Manchester Airport
-      price: 24.99
+      price: 39.99
       dates: Winter special until March, flights available all year
       link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 
@@ -82,6 +82,11 @@
       <p>Dubbed the top of Germany, Zugspitze is a towering peak that offers wintery adventures and icy thrills. The highest peak in the country offers incredible panorama – discover unforgettable views from remarkable purpose built platforms, before tumbling back to base camp. Explore the glacier or try your hand at sledding, then pick from a host of restaurants for enviable culinary treats. </p>
 
   routes:
+
+    - title: Departing from Edinburgh Airport
+      price: 34.99
+      dates: Winter special until March, flights available all year
+      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 
     - title: Departing from London Stansted
       price: 24.99
@@ -108,8 +113,12 @@
   routes:
 
     - title: Departing from London Stansted
-      price: 24.99
+      price: 29.99
       dates: Winter special until March, flights available all year
       link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 
+    - title: Departing from London Heathrow
+      price: 49.99
+      dates: Winter special until March, flights available all year
+      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
 

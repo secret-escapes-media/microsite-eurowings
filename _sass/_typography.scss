@@ -58,7 +58,7 @@ a:hover, a:hover * { text-decoration: none !important; }
 
   // Font sizes
   &--largest {
-    font-size: 4.3em;
+    font-size: 3.486em;
     &-sub {
       display: block;
       font-size: .55em;
@@ -72,6 +72,10 @@ a:hover, a:hover * { text-decoration: none !important; }
   &--smallest    { font-size: 1.2em; }
   &--tiny        { font-size: 1.2em; }
   &--micro       { font-size: 1.2em; }
+  @include bp(medium){
+    &--largest     { font-size: 4.3em; }
+    &--larger      { font-size: 2.986em; }
+  }
   @include bp(large){
     &--small       { font-size: 1.867em; }
     &--smallest    { font-size: 1.5em; }
