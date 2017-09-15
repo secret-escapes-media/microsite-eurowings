@@ -24,7 +24,6 @@ intro: >
 {% assign resort = section.resort %}
 
   <section id="{{section.id}}" class="section page-section section--padding-large {% cycle '', 'page-section--reverse' %}">
-
     <div class="row row--padding">
 
       <!-- CONTENT -->
@@ -44,41 +43,19 @@ intro: >
           </div>
 
 
-          <div class="page-section__resort row row--columns-5-7 row--columns-vertical-align">
-
-            <a id="tracking-resort-{{resort.title | slugify}}-image" href="{{resort.link}}" target="_blank" class="page-section__resort-image bg-image--ratio bg-image--ratio-16-9 bg-image--large--ratio-3-4 row__column" style="background-image: url('{{site.baseurl}}/img/content/{{section.id}}-{{resort.class}}.jpg');"></a>
-
-            <div class="page-section__resort-text row__column">
-              <h3 class="title title--tiny title--bold">{{resort.title}}</h3>
-              {{resort.description}}
-              <a id="tracking-resort-{{resort.title | slugify}}-button" href="{{resort.link}}" target="_blank" class="btn btn--outline btn--small">Find out more</a>
-            </div>
-
-          </div>
+          {% include page/resort.html %}
 
           <div class="row align-center">
             <h4 class="title title--medium title--bolder title--margin-none title--lined"><span>Flights</span></h4>
           </div>
 
           {% for route in section.routes %}
-          <a id="tracking-{{ section.id }}-route-{{route.title | slugify}}" href="{{route.link}}" target="_blank" class="page-section__route row">
-            <div class="page-section__route-text">
-              <h3 class="title title--micro title--bold">{{route.title}}</h3>
-              <p class="p--bold">{{route.dates}}</p>
-            </div>
-            <div class="page-section__route-details">
-              <p>
-                Flights from
-                <span class="title title--micro title--bold title--margin-none">£{{route.price}}</span>
-                per person
-              </p>
-            </div>
-          </a>
+            {% include page/route.html %}
           {% endfor %}
 
 
           <div class="row align-center">
-            <a id="tracking-{{section.id}}-flights" href="https://www.eurowings.com/en/booking/flight-specials/skiforfree.html" target="_blank" class="btn btn--large">View flights to {{ section.title }}</a>
+            <a href="{{section.link}}" target="_blank" class="btn btn--large js-cachebuster" id="tracking-{{section.id}}-flights">View flights to {{ section.title }}</a>
           </div>
 
 
@@ -96,6 +73,6 @@ intro: >
 
 
 
-{% include page/routes.html %}
+{% include page/eurowings-banner.html %}
 
 

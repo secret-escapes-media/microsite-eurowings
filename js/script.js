@@ -29,6 +29,16 @@
     $('html').addClass('touch');
   }
 
+  // inserts current year
+  function cachebuster(){
+    var links = $('.js-cachebuster');
+    var num = Number(num) || Math.floor(Math.random()*10e12);
+    links.each(function(){
+      $(this).attr('href', $(this).attr('href') + num);
+    });
+  }
+
+  $(document).ready(function(){ cachebuster(); });
 
 ///////////////////////////////////////
 //        Navigation

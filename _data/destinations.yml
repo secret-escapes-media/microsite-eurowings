@@ -2,6 +2,7 @@
 
 - id: vienna
   title: Vienna
+  link: http://asn.advolution.de/000156f55F001227b/?rnd=
   text: >
     <p class="p--lead">A European starlet, Vienna is a vastly impressive city. </p>
     <p>Once the domain of the Habsburgs, Vienna embodies a rich heritage of art and music, typified by glorious Imperial, Baroque and opulent Art Nouveau style. Known as the City of Music, Mozart, Brahms, Beethoven, Schubert, Haydn, Strauss and plenty more all passed through, framing Vienna as a cultural capital in central Europe. This enviable heritage offers any visitor unmatched cultural exploits. Watch a concert by the Philharmonic Orchestra, or cosy up in a traditional Beisln, for Austrian pub fare like Wiener Schnitzel and Tafelspitz. Explore the Christmas market and warm up in the famous coffee houses, for rich treats and chamber music set to enthrall with festive cheer. </p>
@@ -9,7 +10,8 @@
   resort:
     title: Semmering, Austria
     class: semmering
-    link: http://semmering.com/en/
+    link: http://asn.advolution.de/000156f55F0012278/?rnd=
+    image-link: http://asn.advolution.de/000156f55F00122d5/?rnd=
     description: >
       <p>Magnificent slopes offer varying difficulties of piste action. Slide down white-powder mountains, taking in the stunning panorama of the Austrian Alps. Try your hand at tobogganing, or pull some tricks at the various freestyle parks. With gourmet offerings in warm, mountainside chalets and delectable wine in stylish bars, you’ll have all you need for toasty evenings in truly spectacular surroundings.</p>
 
@@ -18,12 +20,12 @@
     - title: Departing from London Stansted
       price: 24.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F001227a/?rnd=
 
     - title: Departing from Birmingham Airport
       price: 49.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F0012279/?rnd=
 
 
 
@@ -31,6 +33,7 @@
 
 - id: salzburg
   title: Salz&shy;burg
+  link: http://asn.advolution.de/000156f55F0012277/?rnd=
   text: >
     <p class="p--lead">A fairytale landscape, where music whistles across the Baroque skyline, across the river and around the surrounding mountains.</p>
     <p>This is Sound of Music territory, the birthplace of Mozart, a city that never for one moment neglects its musical heritage. Concerts and impromptu performances are a daily occurrence, adding a festive atmosphere to a wintery getaway. Salzburg, shadowed by the medieval castle to its centre, is a resplendent array of irresistible architecture. Whether it’s discovering the picturesque old town, filled with a symphony of medieval and Baroque charms, or unpicking the age-old advent market, for classic Alpine Christmas splendour, Salzburg is a wonderland of winter delights. </p>
@@ -38,7 +41,8 @@
   resort:
     title: Salzburger Land
     class: salzburger-land
-    link: https://www.salzburgerland.com/en/ski-board/?utm_campaign=kooperationen-eurowings&utm_source=eurowings&utm_medium=branding&utm_content=teaserbox&utm_market=en
+    link: http://asn.advolution.de/000156f55F0012272/?rnd=
+    image-link: http://asn.advolution.de/000156f55F00122d6/?rnd=
     description: >
       <p>Glide past Alpine chalets, climb peaks on modern lifts, as mountains roll out in all directions. Salzburger Land is a veritable paradise for active winter pursuits. With plenty of pistes to choose from, Salzburger Land offers something for all abilities. An indoor centre will help teach young and old alike, before you hurtle down mountains and stop to explore a wide range of Alpine huts offering hearty regional delicacies complemented by stunning views. </p>
 
@@ -47,22 +51,22 @@
     - title: Departing from London Stansted
       price: 29.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F0012276/?rnd=
 
     - title: Departing from London Heathrow
       price: 49.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F0012274/?rnd=
 
     - title: Departing from Birmingham Airport
       price: 49.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F0012273/?rnd=
 
     - title: Departing from Manchester Airport
       price: 39.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F0012275/?rnd=
 
 
 
@@ -70,6 +74,7 @@
 
 - id: munich
   title: Munich
+  link: http://asn.advolution.de/000156f55F001227e/?rnd=
   text: >
     <p class="p--lead">The capital of Bavaria typifies traditional Germany through a soft lens of beer halls, Lederhosn and hearty eats.</p>
     <p>Lined by a startling modernity, Munich evokes an interesting paradigm between Baroque grandeur and sleek modern lines. For all its contradictions, Munich retains a Bavarian tradition that makes for a truly festive winter. Discover the famous Christmas Market, for Gluhwein warmers and treats a-plenty. Settle in to cosy beer halls for hearty Bavarian fare to accompany the vast steins of beer that are so typical of Bavaria. Discover renowned galleries and museums, set within neo-classical mansions, before exploring medieval streets that hide a host of boutiques and refined eateries. </p>
@@ -77,7 +82,8 @@
   resort:
     title: Zuspitze
     class: zuspitze
-    link: http://zugspitze.de/en/winter
+    link: http://asn.advolution.de/000156f55F001227c/?rnd=
+    image-link: http://asn.advolution.de/000156f55F00122d7/?rnd=
     description: >
       <p>Dubbed the top of Germany, Zugspitze is a towering peak that offers wintery adventures and icy thrills. The highest peak in the country offers incredible panorama – discover unforgettable views from remarkable purpose built platforms, before tumbling back to base camp. Explore the glacier or try your hand at sledding, then pick from a host of restaurants for enviable culinary treats. </p>
 
@@ -86,12 +92,12 @@
     - title: Departing from Edinburgh Airport
       price: 34.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F00122bb/?rnd=
 
     - title: Departing from London Stansted
       price: 24.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F001227d/?rnd=
 
 
 
@@ -99,6 +105,7 @@
 
 - id: stuttgart
   title: Stutt&shy;gart
+  link: http://asn.advolution.de/000156f55F0012270/?rnd=
   text: >
     <p class="p--lead">Stuttgart is a powerhouse of industry, a fact that has brought wealth to the city and with it a curation of excellent cultural exploits and refined drink and dining options.</p>
     <p>From high art to luxury cars, Stuttgart knows how to flaunt its wealth. Whether it’s exploring the postmodern Porsche museum, or heading to the top of the Mercedes tower atop the train station for 360 panorama, Stuttgart wears luxury on its sleeve. Discover the vine-clad hills that surround the city, diving into rustic wine bars before heading to the centre for refined dining options. Explore the Christmas Market, where twinkling lights and the smell of Gluhwein fills the grand square. Hunt for treasures in the Art Nouveau market or at the flea market. As the cold bites, head into the bars for crisp Pilsners and hearty southern German eats. </p>
@@ -106,7 +113,8 @@
   resort:
     title: Black Forest Highlands
     class: black-forest-highlands
-    link: https://www.hochschwarzwald.de/Reisemagazin/Dunkler-Wald
+    link: http://asn.advolution.de/000156f55F001226f/?rnd=
+    image-link: http://asn.advolution.de/000156f55F00122d8/?rnd=
     description: >
       <p>The largest ski area north of the Alps offers a host of active pursuits to stir your winter slumber. From winter hiking through the serene Black Forest landscape, or tobogganing down thrilling pistes, the Highlands is a veritable winter wonderland. The home of the cuckoo clock and the eponymous Gateau, this startling landscape is packed with kitsch festive flavours and treats.</p>
 
@@ -115,10 +123,10 @@
     - title: Departing from London Stansted
       price: 29.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F0012271/?rnd=
 
     - title: Departing from London Heathrow
       price: 49.99
       dates: Winter special until March, flights available all year
-      link: https://www.eurowings.com/en/booking/flight-specials/skiforfree.html
+      link: http://asn.advolution.de/000156f55F00122bc/?rnd=
 

@@ -1,0 +1,13 @@
+<a href="{{route.link}}" target="_blank" class="page-section__route row js-cachebuster" id="tracking-{{ section.id }}-route-{{route.title | slugify}}">
+  <div class="page-section__route-text">
+    <h3 class="title title--micro title--bold">{{route.title}}</h3>
+    <p class="p--bold">{{route.dates}}</p>
+  </div>
+  <div class="page-section__route-details">
+    <p>
+      Flights from
+      <span class="title title--micro title--bold title--margin-none">£{{route.price}}</span>
+      per person
+    </p>
+  </div>
+</a>

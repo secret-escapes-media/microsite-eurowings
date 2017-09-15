@@ -1,0 +1,13 @@
+<div class="page-section__resort row row--columns-5-7 row--columns-vertical-align">
+
+  <a href="{{resort.image-link}}" target="_blank" class="page-section__resort-image js-cachebuster bg-image--ratio bg-image--ratio-16-9 bg-image--large--ratio-3-4 row__column" style="background-image: url('{{site.baseurl}}/img/content/{{section.id}}-{{resort.class}}.jpg');" id="tracking-resort-{{resort.title | slugify}}-image"></a>
+
+  <div class="page-section__resort-text row__column">
+    <h3 class="title title--tiny title--bold">{{resort.title}}</h3>
+    {{resort.description}}
+
+    <a href="{{resort.link}}{{site.time | date: '%s%N'}}" target="_blank" class="btn btn--outline btn--small js-cachebuster" id="tracking-resort-{{resort.title | slugify}}-button">Find out more</a>
+
+  </div>
+
+</div>
