@@ -1,0 +1,13 @@
+{% assign offers = site.data.offers | sort: 'saved' | reverse %}
+{% assign offer-type = include.type %}
+
+<section class="bg--light-grey">
+  <div class="row row--padding align-center">
+    <h3 class="title title--larger title--bolder">Offers</h3>
+  </div>
+  <div class="row row--padding offers">
+    {% for offer in offers %}
+      {% include offer.html %}
+    {% endfor %}
+  </div>
+</section>
