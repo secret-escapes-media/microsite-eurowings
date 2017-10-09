@@ -9,15 +9,6 @@
   link: https://www.secretescapes.com/grand-ferdinand-a-vienna-austria/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Sept2017
 
 
-- title: Derag Livinghotel Am Viktualienmarkt
-  location: Munich, Germany
-  description: A design-conscious hotel in the heart of Munich
-  price: 86
-  price-description: per person per night
-  saved: 28
-  link: https://www.secretescapes.com/derag-livinghotel-am-viktualienmarkt-munich-germany-uk/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Sept2017
-
-
 - title: Seehotel Niedernberg
   location: A lakeside village hotel in Bavaria, Germany
   description: A scenic lakeside stay in beautiful Bavaria, with a delicious daily breakfast and spa access
@@ -34,3 +25,48 @@
   price-description: per person per night
   saved: 36
   link: https://www.secretescapes.com/arcotel-camino-stuttgart-stuttgart-germany/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Sept2017
+
+
+- title: Inntaler Hof
+  location: Tyrol, Austria
+  description: A rejuvinating stay in the scenic Austrian Alps
+  price: 76
+  price-description: per person per night
+  saved: 38
+  link: https://www.secretescapes.com/inntaler-hof-mosern-tirol-austria/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Oct2017
+
+
+- title: Suite Hotel Kahlenberg
+  location: Vienna, Austria
+  description: A presidential suite at a Kahlenberg base overlooking Vienna
+  price: 50
+  price-description: per person per night
+  saved: 45
+  link: https://www.secretescapes.com/suite-hotel-kahlenberg-vienna-austria/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Oct2017
+
+
+- title: Hotel Kitzhof Mountain Design Resort
+  location: Kitzbühel, Austria
+  description: Ski-chic in the heart of the Alps, with champagne breakfast
+  price: 77
+  price-description: per person per night
+  saved: 20
+  link: https://www.secretescapes.com/hotel-kitzhof-mountain-design-resort-a-kitzbuehel-austria/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Oct2017
+
+
+- title: Hotel Bellevue Vienna
+  location: Vienna, Austria
+  description: A grand Vienna hotel stay with Christmas market dates
+  price: 73
+  price-description: per person per night
+  saved: 63
+  link: https://www.secretescapes.com/hotel-bellevue-wien-a-vienna-austria/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Oct2017
+
+
+- title: Derag Livinghotel Am Viktualienmarkt
+  location: Munich, Germany
+  description: A design-conscious hotel in the heart of Munich
+  price: 86
+  price-description: per person per night
+  saved: 28
+  link: https://www.secretescapes.com/derag-livinghotel-am-viktualienmarkt-munich-germany-uk/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Oct2017
