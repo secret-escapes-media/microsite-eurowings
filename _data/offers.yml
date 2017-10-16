@@ -1,32 +1,3 @@
-
-
-- title: Grand Ferdinand
-  location: Vienna, Austria
-  description: Grandeur, beauty, grace and champagne in Vienna
-  price: 66
-  price-description: per person per night
-  saved: 44
-  link: https://www.secretescapes.com/grand-ferdinand-a-vienna-austria/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Sept2017
-
-
-- title: Derag Livinghotel Am Viktualienmarkt
-  location: Munich, Germany
-  description: A design-conscious hotel in the heart of Munich
-  price: 86
-  price-description: per person per night
-  saved: 28
-  link: https://www.secretescapes.com/derag-livinghotel-am-viktualienmarkt-munich-germany-uk/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Oct2017
-
-
-- title: Inntaler Hof
-  location: Tyrol, Austria
-  description: A rejuvinating stay in the scenic Austrian Alps
-  price: 76
-  price-description: per person per night
-  saved: 38
-  link: https://www.secretescapes.com/inntaler-hof-mosern-tirol-austria/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Oct2017
-
-
 - title: Hotel Bellevue Vienna
   location: Vienna, Austria
   description: A grand Vienna hotel stay with Christmas market dates
@@ -34,3 +5,43 @@
   price-description: per person per night
   saved: 63
   link: https://www.secretescapes.com/hotel-bellevue-wien-a-vienna-austria/sale?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Eurowings_Oct2017
+
+- title: Palais Hansen Kempinski
+  location: Vienna, Austria
+  description: 5* decadence in Austria's capital with Michelin-star dining
+  price: 129
+  price-description: per person per night
+  saved: 36
+  link: https://www.secretescapes.com/palais-hansen-kempinski-vienna-vienna-austria/sale?utm_source=SE&utm_medium=Media&utm_campaign=Eurowings_2017
+
+- title: Arthotel ANA Boutique Six
+  location: Vienna, Austria
+  description: A stay in charismatic Vienna, with breakfast included
+  price: 30
+  price-description: per person per night
+  saved: 44
+  link: https://www.secretescapes.com/arthotel-ana-boutique-six-vienna-austria/sale?utm_source=SE&utm_medium=Media&utm_campaign=Eurowings_2017
+
+- title: Best Western Premier Kaiserhof Kitzbühel
+  location: Kitzbühel, Austria
+  description: Modern-meets-traditional Alpine stay with spa in Tyrol
+  price: 53
+  price-description: per person per night
+  saved: 55
+  link: https://www.secretescapes.com/best-western-premier-kaiserhof-kitzbuehel-kitzbuehel-austria/sale?utm_source=SE&utm_medium=Media&utm_campaign=Eurowings_2017
+
+- title: Hotel Das Falkenstein
+  location: Kaprun, Austria
+  description: A classic chalet-style stay in Austria's mountains
+  price: 119
+  price-description: per person per night
+  saved: 32
+  link: https://www.secretescapes.com/hotel-das-falkenstein-kaprun-austria1/sale?utm_source=SE&utm_medium=Media&utm_campaign=Eurowings_2017
+
+- title: DAS.GOLDBERG
+  location: Bad Hofgastein, Austria
+  description: A rustic-chic mountain hideaway overlooking Bad Hofgastein
+  price: 258
+  price-description: per studio per night
+  saved: 26
+  link: https://www.secretescapes.com/dasgoldbergj-bad-hofgastein-austria/sale?utm_source=SE&utm_medium=Media&utm_campaign=Eurowings_2017
